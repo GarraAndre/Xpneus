@@ -16,12 +16,17 @@ jobs:
       - name: Get dependencies
         run: flutter pub get
 
-      - name: Build IPA without signing
-        run: flutter build ipa --no-codesign
+      - name: Build iOS App
+        run: flutter build ios --no-codesign
+
+      - name: Zip App Bundle
+        run: |
+          cd build/ios/iphoneos
+          zip -r ../../../ios-app.ipa Runner.app
 
       - name: Upload IPA Artifact
         uses: actions/upload-artifact@v4
         with:
           name: ios-app
-          path: build/ios/**/*.ipa
+          path: ios-app.ipa
 
