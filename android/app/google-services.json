@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "685505535233",
+    "project_id": "xpneus-estoque",
+    "storage_bucket": "xpneus-estoque.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:685505535233:android:a3c21fc3b3ed1d4024cf00",
+        "android_client_info": {
+          "package_name": "com.example.xpneus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "685505535233-5om1bqoi70sr6bik0sag6bf78deuiho6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsTE6M12A6eZFNTJ_LllCPaiS6aM_RlLw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "685505535233-5om1bqoi70sr6bik0sag6bf78deuiho6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
